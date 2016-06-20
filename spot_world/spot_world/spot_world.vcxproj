@@ -153,7 +153,19 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\corgi\entity_manager.cpp" />
+    <ClCompile Include="..\src\corgi\version.cpp" />
     <ClCompile Include="spot_world.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\corgi\component.h" />
+    <ClInclude Include="..\include\corgi\component_id_lookup.h" />
+    <ClInclude Include="..\include\corgi\component_interface.h" />
+    <ClInclude Include="..\include\corgi\entity.h" />
+    <ClInclude Include="..\include\corgi\entity_common.h" />
+    <ClInclude Include="..\include\corgi\entity_manager.h" />
+    <ClInclude Include="..\include\corgi\vector_pool.h" />
+    <ClInclude Include="..\include\corgi\version.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

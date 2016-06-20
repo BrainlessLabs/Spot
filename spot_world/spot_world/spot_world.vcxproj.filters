@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\corgi">
+      <UniqueIdentifier>{f2720f87-80b7-4fc2-a7eb-28a7cfa94a4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\corgi">
+      <UniqueIdentifier>{40b145d1-ebc2-4637-911e-7d6339a6bbc9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -21,5 +27,37 @@
     <ClCompile Include="spot_world.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\corgi\entity_manager.cpp">
+      <Filter>Source Files\corgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\corgi\version.cpp">
+      <Filter>Source Files\corgi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\corgi\component.h">
+      <Filter>Header Files\corgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\corgi\component_id_lookup.h">
+      <Filter>Header Files\corgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\corgi\component_interface.h">
+      <Filter>Header Files\corgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\corgi\entity.h">
+      <Filter>Header Files\corgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\corgi\entity_common.h">
+      <Filter>Header Files\corgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\corgi\entity_manager.h">
+      <Filter>Header Files\corgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\corgi\vector_pool.h">
+      <Filter>Header Files\corgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\corgi\version.h">
+      <Filter>Header Files\corgi</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
