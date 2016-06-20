@@ -79,6 +79,21 @@
     <Filter Include="Header Files\Box2D\Dynamics\Collision\Shapes">
       <UniqueIdentifier>{4c7daec5-eded-4cf5-b245-45d7b64f9190}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\tue">
+      <UniqueIdentifier>{de3cac2c-b72b-45b2-9217-7f221b9e20de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tue\details_">
+      <UniqueIdentifier>{b91a5828-ed94-486a-8037-7ff97f6f9083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tue\details_\simd">
+      <UniqueIdentifier>{e08888cc-b853-4bbc-bd77-9f7ed66173fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tue\details_\simd\sse">
+      <UniqueIdentifier>{b96575f2-a17e-4b57-9294-9372c98b3924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tue\details_\simd\sse2">
+      <UniqueIdentifier>{9126b895-96b7-42db-88b2-af9fe0c15cc5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -511,6 +526,126 @@
     </ClInclude>
     <ClInclude Include="..\include\Box2D\Collision\Shapes\b2Shape.h">
       <Filter>Header Files\Box2D\Dynamics\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\mat.hpp">
+      <Filter>Header Files\tue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\math.hpp">
+      <Filter>Header Files\tue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\nocopy_cast.hpp">
+      <Filter>Header Files\tue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\quat.hpp">
+      <Filter>Header Files\tue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\simd.hpp">
+      <Filter>Header Files\tue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\sized_bool.hpp">
+      <Filter>Header Files\tue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\transform.hpp">
+      <Filter>Header Files\tue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\unused.hpp">
+      <Filter>Header Files\tue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\vec.hpp">
+      <Filter>Header Files\tue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\is_arithmetic_simd_component.hpp">
+      <Filter>Header Files\tue\details_</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\is_floating_point_simd_component.hpp">
+      <Filter>Header Files\tue\details_</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\is_integral_simd_component.hpp">
+      <Filter>Header Files\tue\details_</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\is_simd_component.hpp">
+      <Filter>Header Files\tue\details_</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\is_sized_bool.hpp">
+      <Filter>Header Files\tue\details_</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\is_vec_component.hpp">
+      <Filter>Header Files\tue\details_</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\mat2xR.hpp">
+      <Filter>Header Files\tue\details_</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\mat3xR.hpp">
+      <Filter>Header Files\tue\details_</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\mat4xR.hpp">
+      <Filter>Header Files\tue\details_</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\matmult.hpp">
+      <Filter>Header Files\tue\details_</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\simd_specializations.hpp">
+      <Filter>Header Files\tue\details_</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\simd_support.hpp">
+      <Filter>Header Files\tue\details_</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\simd2.hpp">
+      <Filter>Header Files\tue\details_</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\simdN.hpp">
+      <Filter>Header Files\tue\details_</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\vec2.hpp">
+      <Filter>Header Files\tue\details_</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\vec3.hpp">
+      <Filter>Header Files\tue\details_</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\vec4.hpp">
+      <Filter>Header Files\tue\details_</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\simd\sse2\bool8x16.sse2.hpp">
+      <Filter>Header Files\tue\details_\simd\sse2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\simd\sse2\bool16x8.sse2.hpp">
+      <Filter>Header Files\tue\details_\simd\sse2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\simd\sse2\bool64x2.sse2.hpp">
+      <Filter>Header Files\tue\details_\simd\sse2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\simd\sse2\float64x2.sse2.hpp">
+      <Filter>Header Files\tue\details_\simd\sse2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\simd\sse2\int8x16.sse2.hpp">
+      <Filter>Header Files\tue\details_\simd\sse2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\simd\sse2\int16x8.sse2.hpp">
+      <Filter>Header Files\tue\details_\simd\sse2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\simd\sse2\int32x4.sse2.hpp">
+      <Filter>Header Files\tue\details_\simd\sse2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\simd\sse2\int64x2.sse2.hpp">
+      <Filter>Header Files\tue\details_\simd\sse2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\simd\sse2\uint8x16.sse2.hpp">
+      <Filter>Header Files\tue\details_\simd\sse2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\simd\sse2\uint16x8.sse2.hpp">
+      <Filter>Header Files\tue\details_\simd\sse2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\simd\sse2\uint32x4.sse2.hpp">
+      <Filter>Header Files\tue\details_\simd\sse2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\simd\sse2\uint64x2.sse2.hpp">
+      <Filter>Header Files\tue\details_\simd\sse2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\simd\sse\bool32x4.sse.hpp">
+      <Filter>Header Files\tue\details_\simd\sse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tue\detail_\simd\sse\float32x4.sse.hpp">
+      <Filter>Header Files\tue\details_\simd\sse</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
